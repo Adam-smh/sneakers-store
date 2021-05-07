@@ -196,17 +196,20 @@ body {
   display: flex;
   flex-direction: row;
   text-align: center;
+  justify-content: space-between;
   margin-left: 200px;
 }
-.counter,
-div {
+.counter div {
+  margin-right: 20px;
 }
 .counter-number {
   font-size: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 40x;
 }
 .counter-text {
   font-size: 16px;
+  display: flex;
+  justify-content: space-between;
 }
 .prod-btn {
   border: solid 2px #464646;
